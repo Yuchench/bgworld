@@ -4,16 +4,55 @@
 
 @import "bootstrap";
 
+$red: #de1e19;
+$orange: #e45c19;
+$yellow: #efea35;
+$green: #53b232;
+$blue: #14bbdb;
+$purple: #7e1e6f;
+
+
 a {
   text-decoration: none;
   color: black;
 }
 
-.row {
+a:hover {
+  text-decoration: none;
+  color: black;
+}
+
+.subrow {
   line-height: 10px;
+  margin-top: 0;
+}
+
+.side {
+  background-color: #464646;
+  height: 100vh;
 }
 
 #about {
+  height: 100vh;
+}
+
+#new {
+  height: 100vh;
+}
+
+#menu {
+  height: 100vh;
+}
+
+#board {
+  height: 100vh;
+}
+
+#activity {
+  height: 100vh;
+}
+
+#contact {
   height: 100vh;
 }
 
@@ -23,26 +62,33 @@ a {
   left: 0;  
   top: 0;  
   z-index: 100;  
-  border-top: 0;  
+  border-top: 0;
+  margin-top: 0;  
 }  
 
 .top {
-  height: 100vh;
-  min-width:100% !important;
+  height: auto;
+  width: auto;
   background: white;
 }
 
-
 .left {
+  height: 100vh;
+  background-image: url('cloud.png');
+}
+
+.right {
   background-repeat: no-repeat;
   height: 100vh;
-  background-image:url('bgpic.jpg');
+  background-image: url('bgpic.jpg');
 }
 
 .navbar {
+  margin-top: 0;
   margin-bottom: 0;
   min-height: 0;
   width: 100%;
+  padding-top: 0;
 }
 
 img.logo {
@@ -51,6 +97,10 @@ img.logo {
   margin-left: auto;
   margin-right: auto;
   margin-top: 50px;
+}
+
+.glyphicon {
+  font-size: 36px;
 }
 
 .round-button {
@@ -82,25 +132,29 @@ img.logo {
 }
 
 .red {
-  background-color: #de1e19;
+  background-color: $red;
 }
 
 .orange {
-  background-color: #e45c19;
+  background-color: $orange;
 }
 
 .yellow {
-  background-color: #efea35;
+  background-color: $yellow;
 }
 
 .green {
-  background-color: #53b232;
+  background-color: $green;
 }
 
 .blue {
-  background-color: #14bbdb;
+  background-color: $blue;
 }
 
 .purple {
-  background-color: #7e1e6f;
+  background-color: $purple;
+}
+
+#footer {
+  line-height: 30px;
 }

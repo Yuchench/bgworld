@@ -1,11 +1,14 @@
 <div class="top">
   <div class="row">
-    <div class="col-md-2"></div>
-    <div class="left col-md-8">
+    <div class="left col-md-4">
       <img class="logo" src="assets/bgpic.png">
       <div class="round">
-        <%= link_to("了解更多", page_path('about'), :class => "round-button") %></div>
+        <button type="button" class="round-button">
+          <%= link_to "了解更多", anchor: 'about', :class => 'round-button' %>
+        </button>
+      </div>
     </div>
-    <div class="col-md-2"></div>
+    <div class="right col-md-8">
+    </div>
   </div>
 </div>

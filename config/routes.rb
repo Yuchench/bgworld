@@ -1,12 +1,6 @@
 Rails.application.routes.draw do
   root to: 'pages#index'
 
-  get 'pages/about' => 'high_voltage/pages#show', id: 'about'
-  get 'pages/new' => 'high_voltage/pages#show', id: 'new'
-  get 'pages/menu' => 'high_voltage/pages#show', id: 'menu'
-  get 'pages/board' => 'high_voltage/pages#show', id: 'board'
-  get 'pages/activity' => 'high_voltage/pages#show', id: 'activity'
-  get 'pages/contact' => 'high_voltage/pages#show', id: 'contact'
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
