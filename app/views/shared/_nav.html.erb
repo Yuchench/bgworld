@@ -1,12 +1,13 @@
-<nav class="navbar nav nav-justified navbar-default" role="navigation">
-  <div class="subrow row">
+<div class="navbar">
+  <nav class="nav nav-justified navbar-default" role="navigation">
     <div class="red col-md-2">&nbsp;</div>
     <div class="orange col-md-2">&nbsp;</div>
     <div class="yellow col-md-2">&nbsp;</div>
     <div class="green col-md-2">&nbsp;</div>
     <div class="blue col-md-2">&nbsp;</div>
     <div class="purple col-md-2">&nbsp;</div>
-    <%= render_list :class => "nav nav-justified navbar-default" do |li|
+  </nav>
+  <%= render_list :class => "nav nav-justified navbar-default" do |li|
             li << link_to('關於我們<br><br><span class="glyphicon glyphicon-heart-empty"></span>'.html_safe, anchor: 'about')
             li << link_to('最新優惠<br><br><span class="glyphicon glyphicon-gift"></span>'.html_safe, anchor: 'new')
             li << link_to('餐點介紹<br><br><span class="glyphicon glyphicon-cutlery"></span>'.html_safe, anchor: 'menu')
@@ -14,7 +15,6 @@
             li << link_to('活動花絮<br><br><span class="glyphicon glyphicon-camera"></span>'.html_safe, anchor: 'activity')
             li << link_to('聯絡我們<br><br><span class="glyphicon glyphicon-send"></span>'.html_safe, anchor: 'contact')
           end %>
-  </div>
   <!--  <ul class="nav nav-justified">
         <li><a href="#about">關於我們</a>
         </li>
@@ -34,4 +34,4 @@
           <a href="#contact">聯絡我們</a>
         </li>
       </ul> -->
-</nav>
+</div>
