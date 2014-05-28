@@ -5,10 +5,12 @@ var stickyNav = function(){
 var scrollTop = $(window).scrollTop();  
        
 if (scrollTop > stickyNavTop) {   
+    $('.navbar').addClass('navmargin'); 
     $('.navbar').addClass('sticky'); 
-    $('body').addClass('stickyBody'); 
+    $('body').addClass('stickyBody');
     $('#aboutspacer').css('height','30px');
 } else {  
+    $('.navbar').removeClass('navmargin');
     $('.navbar').removeClass('sticky');  
     $('body').removeClass('stickyBody'); 
     $('#aboutspacer').css('height','0px');

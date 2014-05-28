@@ -11,6 +11,10 @@ $green: #53b232;
 $blue: #14bbdb;
 $purple: #7e1e6f;
 
+body {
+  margin-left: 25px;
+  margin-right: 25px; 
+}
 
 a {
   text-decoration: none;
@@ -55,7 +59,7 @@ ul.nav a:hover {
 }
 
 #contact {
-  height: 500px;
+  height: 450px;
   background: #FCF5FB;
   margin-bottom: 0;
 
@@ -64,16 +68,23 @@ ul.nav a:hover {
 .footer {
   bottom:0;
   width:100%;
-  height:100px;  
+  height:150px;  
   background-color: #FCF5FB;
   text-align: center;
 }
 
 .navbar {
+  margin-left: 0px;
+  margin-right: 0px;
   text-align: center; 
   display: inline-block;
   background-color: white;
   border-bottom: dotted 2px #5C5C5C;
+}
+
+.navmargin {
+  margin-left: 25px;
+  margin-right: 25px;
 }
 
 .nav {
@@ -87,7 +98,7 @@ ul.nav a:hover {
 
 .sticky {  
   position: fixed;
-  left: 0px;
+  left: 0;
   top: 0;  
   z-index: 100;
   border-top: 0;  
@@ -165,5 +176,5 @@ img.social {
   margin-left: auto;
   margin-right: auto;
   height: 60px;
-  padding-bottom: 3px;
+  padding-bottom: 5px;
 }
