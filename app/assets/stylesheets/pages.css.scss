@@ -34,35 +34,40 @@ ul.nav a:hover {
 #about {
   height: 100vh;
   background: #FCF0F0;
+  padding: 75px 0 0 30px;
 }
 
 
 #new {
   height: 100vh;
   background: #FFEEE6;
+  padding: 75px 0 0 30px;
 }
 
 
 #menu {
   height: 100vh;
   background: #FCFCDC;
+  padding: 75px 0 0 30px;
 }
 
 #board {
   height: 100vh;
   background: #EEFFE8;
+  padding: 75px 0 0 30px;
 }
 
 #activity {
   height: 100vh;
   background: #E8FBFF;
+  padding: 75px 0 0 30px;
 }
 
 #contact {
-  height: 450px;
+  height: 500px;
   background: #FCF5FB;
   margin-bottom: 0;
-
+  padding: 100px 0 0 30px;
 }
 
 .footer {
@@ -114,7 +119,7 @@ ul.nav a:hover {
   background-repeat: no-repeat;
   background-size: 100% 100%;
   background-position: center;
-  border-radius: 30px;
+  border-radius: 50px;
 }
 
 img.logo {
@@ -177,4 +182,12 @@ img.social {
   margin-right: auto;
   height: 60px;
   padding-bottom: 5px;
+}
+
+.map_canvas {
+padding-top: 25px;
+}
+
+.info {
+  text-align: center;
 }
