@@ -27,130 +27,53 @@ ul.nav a:hover {
   background-color: white !important;
 }
 
-.side {
-  background-color: #464646;
-  height: 100vh;
-}
-
 #about {
   height: 100vh;
-  margin: 5% 5%;
-  background: white;
+  background: #FCF0F0;
 }
 
-.abouttop {
-  height: 60px;
-}
-
-.about {
-  background-position: 50% 50%;
-  border-radius: 30px;
-  height: 500px;
-  background: $red;
-  opacity: 0.1;
-}
 
 #new {
   height: 100vh;
-  margin: 5% 5%;
-  background: white;
+  background: #FFEEE6;
 }
 
-.newtop {
-  height: 60px;
-}
-
-.new {
-  background-position: 50% 50%;
-  border-radius: 30px;
-  height: 500px;
-  background: $orange;
-  opacity: 0.1;
-}
 
 #menu {
   height: 100vh;
-  margin: 5% 5%;
-  background: white;
-}
-
-.menutop {
-  height: 60px;
-}
-
-.menu {
-  background-position: 50% 50%;
-  border-radius: 30px;
-  height: 500px;
-  background: $yellow;
-  opacity: 0.1;
+  background: #FCFCDC;
 }
 
 #board {
   height: 100vh;
-  margin: 5% 5%;
-  background: white;
-}
-
-.boardtop {
-  height: 60px;
-}
-
-.board {
-  background-position: 50% 50%;
-  border-radius: 30px;
-  height: 500px;
-  background: $green;
-  opacity: 0.1;
+  background: #EEFFE8;
 }
 
 #activity {
   height: 100vh;
-  margin: 5% 5%;
-  background: white;
-}
-
-.activitytop {
-  height: 60px;
-}
-
-.activity {
-  background-position: 50% 50%;
-  border-radius: 30px;
-  height: 500px;
-  background: $blue;
-  opacity: 0.1;
+  background: #E8FBFF;
 }
 
 #contact {
-  height: 100vh;
-  margin: 5% 5% 0 5%;
-  background: white;
-}
+  height: 500px;
+  background: #FCF5FB;
+  margin-bottom: 0;
 
-.contacttop {
-  height: 60px;
-}
-
-.contact {
-  background-position: 50% 50%;
-  border-radius: 30px;
-  height: 450px;
-  background: $purple;
-  opacity: 0.1;
 }
 
 .footer {
-  border-radius: 30px;
-  height: 50px;
-  background-color: #2B2B2B;
+  bottom:0;
+  width:100%;
+  height:100px;  
+  background-color: #FCF5FB;
+  text-align: center;
 }
 
 .navbar {
   text-align: center; 
   display: inline-block;
-  margin: 0 5%;
   background-color: white;
+  border-bottom: dotted 2px #5C5C5C;
 }
 
 .nav {
@@ -170,11 +93,15 @@ ul.nav a:hover {
   border-top: 0;  
 }  
 
+.stickyBody {  
+  padding-top:120px;
+}
+
 .top {
   height: 100vh;
   background-image: url('cloud.png');
   background-repeat: no-repeat;
-  background-size: 90% 90%;
+  background-size: 100% 100%;
   background-position: center;
   border-radius: 30px;
 }
@@ -207,6 +134,7 @@ img.slogan {
 
 .glyphicon {
   font-size: 36px;
+  padding-top: 12px;
 }
 
 .red {
@@ -233,6 +161,9 @@ img.slogan {
   background-color: $purple;
 }
 
-#footer {
-  line-height: 30px;
+img.social {
+  margin-left: auto;
+  margin-right: auto;
+  height: 60px;
+  padding-bottom: 3px;
 }
