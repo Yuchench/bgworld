@@ -12,8 +12,6 @@ $blue: #14bbdb;
 $purple: #7e1e6f;
 
 body {
-  margin-left: 25px;
-  margin-right: 25px; 
 }
 
 a {
@@ -88,8 +86,7 @@ ul.nav a:hover {
 }
 
 .navmargin {
-  margin-left: 25px;
-  margin-right: 25px;
+
 }
 
 .nav {
@@ -115,11 +112,10 @@ ul.nav a:hover {
 
 .top {
   height: 100vh;
-  background-image: url('cloud.png');
+  background-image: url('sky.png');
   background-repeat: no-repeat;
   background-size: 100% 100%;
   background-position: center;
-  border-radius: 50px;
 }
 
 img.logo {
@@ -185,7 +181,7 @@ img.social {
 }
 
 .map_canvas {
-padding-top: 25px;
+padding-top: 20px;
 }
 
 .info {
