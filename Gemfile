@@ -14,6 +14,7 @@ gem 'bootstrap_form'
 gem 'bootstrap_helper'
 gem 'high_voltage', '~> 2.1.0'
 gem 'gmaps4rails'
+gem 'active_link_to'
 
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier', '>= 1.3.0'

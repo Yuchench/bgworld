@@ -14,6 +14,7 @@
 //= require jquery_ujs
 //= require smooth
 //= require sticky
+//= require active
 //= require bootstrap
 //= require turbolinks
 //= require_tree .

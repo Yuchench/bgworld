@@ -29,49 +29,54 @@ ul.nav a:hover {
   background-color: white !important;
 }
 
+a.nav-active {
+  background-color: red !important;
+}
+
 #about {
   height: 100vh;
   background: #FCF0F0;
-  padding: 75px 0 0 30px;
+  padding: 60px 0 0 10px;
 }
 
 
 #new {
   height: 100vh;
   background: #FFEEE6;
-  padding: 75px 0 0 30px;
+  padding: 60px 0 0 10px;
 }
 
 
 #menu {
   height: 100vh;
   background: #FCFCDC;
-  padding: 75px 0 0 30px;
+  padding: 60px 0 0 10px;
 }
 
 #board {
   height: 100vh;
   background: #EEFFE8;
-  padding: 75px 0 0 30px;
+  padding: 60px 0 0 10px;
 }
 
 #activity {
   height: 100vh;
   background: #E8FBFF;
-  padding: 75px 0 0 30px;
+  padding: 60px 0 0 10px;
 }
 
 #contact {
   height: 500px;
   background: #FCF5FB;
   margin-bottom: 0;
-  padding: 100px 0 0 30px;
+  padding: 60px 0 0 10px;
 }
 
 .footer {
-  bottom:0;
+  bottom: 0;
+  top: 0;
   width:100%;
-  height:150px;  
+  height:100px;  
   background-color: #FCF5FB;
   text-align: center;
 }
@@ -180,10 +185,24 @@ img.social {
   padding-bottom: 5px;
 }
 
-.map_canvas {
-padding-top: 20px;
-}
+
 
 .info {
+  padding: 0 10px 0 0;
   text-align: center;
+}
+
+.google-maps {
+  position: relative;
+  padding-bottom: 50%; // This is the aspect ratio
+  height: 0;
+  overflow: hidden;
+}
+
+.google-maps iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100% !important;
+  height: 100% !important;
 }
