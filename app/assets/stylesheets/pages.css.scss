@@ -21,7 +21,7 @@ a {
 
 a:hover {
   text-decoration: none;
-  color: black;
+  color: #fd6ba3;
   background-color: transparent;
 }
 
@@ -30,46 +30,48 @@ ul.nav a:hover {
 }
 
 a.nav-active {
-  color: black !important;
+  color: #fd6ba3 !important;
+  font-weight: bold;
 }
 
 #about {
   height: 100vh;
-  background: #FCF0F0;
+  background: #f6f5f6;
   padding: 60px 0 0 10px;
 }
 
 
 #new {
   height: 100vh;
-  background: #FFEEE6;
+  background: #fd6ba3;
   padding: 60px 0 0 10px;
 }
 
 
 #menu {
   height: 100vh;
-  background: #FCFCDC;
+  background: #f6f5f6;
   padding: 60px 0 0 10px;
 }
 
 #board {
   height: 100vh;
-  background: #EEFFE8;
+  background: #fd6ba3;
   padding: 60px 0 0 10px;
 }
 
 #activity {
   height: 100vh;
-  background: #E8FBFF;
+  background: #f6f5f6;
   padding: 60px 0 0 10px;
 }
 
 #contact {
   height: 500px;
-  background: #FCF5FB;
+  background: #36363c;
   margin-bottom: 0;
   padding: 60px 0 0 10px;
+  color: #f6f5f6;
 }
 
 .footer {
@@ -77,8 +79,9 @@ a.nav-active {
   top: 0;
   width:100%;
   height:100px;  
-  background-color: #FCF5FB;
+  background-color: #36363c;
   text-align: center;
+  color: #f6f5f6;
 }
 
 .navbar {
@@ -87,11 +90,7 @@ a.nav-active {
   text-align: center; 
   display: inline-block;
   background-color: white;
-  border-bottom: dotted 2px #5C5C5C;
-}
-
-.navmargin {
-
+  box-shadow: 0 1px 5px #888888;
 }
 
 .nav {
@@ -150,8 +149,8 @@ img.slogan {
 }
 
 .glyphicon {
-  font-size: 36px;
-  padding-top: 12px;
+  font-size: 30px;
+  padding-top: 10px;
 }
 
 .red {

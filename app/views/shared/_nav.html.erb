@@ -2,14 +2,14 @@
   <div class="navbar" id="navbar">
     <div class="container-fluid">
       <div class="row">
-        <nav class="nav nav-justified navbar-default" role="navigation">
+        <!-- <nav class="nav nav-justified navbar-default" role="navigation">
           <div class="red col-sm-2 col-md-2">&nbsp;</div>
           <div class="orange col-sm-2 col-md-2">&nbsp;</div>
           <div class="yellow col-sm-2 col-md-2">&nbsp;</div>
           <div class="green col-sm-2 col-md-2">&nbsp;</div>
           <div class="blue col-sm-2 col-md-2">&nbsp;</div>
           <div class="purple col-sm-2 col-md-2">&nbsp;</div>
-        </nav>
+        </nav> -->
         <%= render_list :class => "nav nav-justified navbar-default" do |li|
             li << link_to('關於我們<br><span class="glyphicon glyphicon-heart-empty"></span>'.html_safe, anchor: 'about')
             li << link_to('最新優惠<br><span class="glyphicon glyphicon-gift"></span>'.html_safe, anchor: 'new')
