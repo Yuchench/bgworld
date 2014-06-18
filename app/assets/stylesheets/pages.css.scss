@@ -4,16 +4,6 @@
 
 @import "bootstrap";
 
-$red: #de1e19;
-$orange: #e45c19;
-$yellow: #efea35;
-$green: #53b232;
-$blue: #14bbdb;
-$purple: #7e1e6f;
-
-body {
-}
-
 a {
   text-decoration: none;
   color: #5C5C5C;
@@ -34,43 +24,25 @@ a.nav-active {
   font-weight: bold;
 }
 
-#about {
+#about, #menu, #environment {
   height: 100vh;
   background: #f6f5f6;
   padding: 60px 0 0 10px;
 }
 
 
-#new {
+#consume, #board {
   height: 100vh;
   background: #fd6ba3;
   padding: 60px 0 0 10px;
-}
-
-
-#menu {
-  height: 100vh;
-  background: #f6f5f6;
-  padding: 60px 0 0 10px;
-}
-
-#board {
-  height: 100vh;
-  background: #fd6ba3;
-  padding: 60px 0 0 10px;
-}
-
-#activity {
-  height: 100vh;
-  background: #f6f5f6;
-  padding: 60px 0 0 10px;
+  color: #f6f5f6;
 }
 
 #contact {
-  height: 500px;
+  height: 100%;
   background: #36363c;
   margin-bottom: 0;
-  padding: 60px 0 0 10px;
+  padding-top: 60px;
   color: #f6f5f6;
 }
 
@@ -78,7 +50,7 @@ a.nav-active {
   bottom: 0;
   top: 0;
   width:100%;
-  height:100px;  
+  height:100%;  
   background-color: #36363c;
   text-align: center;
   color: #f6f5f6;
@@ -111,7 +83,7 @@ a.nav-active {
 }  
 
 .stickyBody {  
-  padding-top:120px;
+  padding-top:92px;
 }
 
 .top {
@@ -120,6 +92,7 @@ a.nav-active {
   background-repeat: no-repeat;
   background-size: 100% 100%;
   background-position: center;
+  border-radius: 50px;
 }
 
 img.logo {
@@ -153,30 +126,6 @@ img.slogan {
   padding-top: 10px;
 }
 
-.red {
-  background-color: $red;
-}
-
-.orange {
-  background-color: $orange;
-}
-
-.yellow {
-  background-color: $yellow;
-}
-
-.green {
-  background-color: $green;
-}
-
-.blue {
-  background-color: $blue;
-}
-
-.purple {
-  background-color: $purple;
-}
-
 img.social {
   margin-left: auto;
   margin-right: auto;
@@ -184,24 +133,37 @@ img.social {
   padding-bottom: 5px;
 }
 
-
-
-.info {
-  padding: 0 10px 0 0;
-  text-align: center;
+.aboutus, .consume, .menu, .board, .environment {
+  padding-left: 30px;
 }
 
-.google-maps {
+.info {
+  padding: 0 50px;
+}
+
+.info-detail {
+  padding: 15px 0 0 10px;
+}
+
+.google-maps {  
+  margin: 0 auto;
+  width: 80%;
+  height: 400px;
   position: relative;
-  padding-bottom: 50%; // This is the aspect ratio
-  height: 0;
   overflow: hidden;
 }
 
 .google-maps iframe {
+  border:none;
   position: absolute;
   top: 0;
   left: 0;
-  width: 100% !important;
-  height: 100% !important;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.map_canvas {
+  width: 100%;
+  padding: 15px 0;
 }
